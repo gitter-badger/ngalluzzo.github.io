@@ -1,1 +1,3 @@
-alert('this is new');
+$(document).ready(function() {
+	alert('subbed');
+});
