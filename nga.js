@@ -1,4 +1,3 @@
-window.KnackInit = function($) { 
 	if (!Knack.session.user) {
   Knack.user.save({
          email: "nicolas@knackhq.com",
@@ -7,6 +6,4 @@ window.KnackInit = function($) {
     success: function () {},
     error: function () {}
   });
-}
-
 }
